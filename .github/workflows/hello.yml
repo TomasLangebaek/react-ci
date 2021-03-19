@@ -16,10 +16,4 @@ jobs:
           echo "Hello ISIS3710"
       - name: Get current date
         run: |
-          echo date
-      - name: get date
-        run: |
-          echo "NOW::$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
-      - name: print date
-        run: |
-          echo $NOW
+          echo date "+%H:%M:%S   %d/%m/%y"
