@@ -16,4 +16,4 @@ jobs:
           echo "Hello ISIS3710"
       - name: Get current date
         run: |
-          echo date "+%H:%M:%S   %d/%m/%y"
+          date
