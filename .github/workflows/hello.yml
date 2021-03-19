@@ -17,4 +17,4 @@ jobs:
       - name: Get current date
         id: date
         run: |
-          echo date
+          echo "$ date"
